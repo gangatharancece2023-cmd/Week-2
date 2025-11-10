@@ -1,0 +1,19 @@
+### 🔹 Goals Completed
+- Organized the dataset into 14 labeled fabric classes.
+- Verified image integrity and removed corrupted or extremely blurred samples.
+- Implemented preprocessing pipeline:
+  - Image resizing + normalization
+  - Optional tiling for large microscope images
+- Added training script using EfficientNet-B0 with Transfer Learning.
+- Established evaluation pipeline with confusion matrix visualization.
+- Prepared a structure to save trained models and logs.
+
+### 🧠 Model Overview
+We are using **EfficientNet-B0** pretrained on ImageNet and fine-tuning it to classify fabric microtextures.  
+This architecture performs well for texture-based classification problems while remaining lightweight.
+
+### 🚀 Next Goals (Week 3 Preview)
+- Hyperparameter tuning
+- Grad-CAM explainability
+- Model optimization for Raspberry Pi / Jetson edge deployment
+- 
